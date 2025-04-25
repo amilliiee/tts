@@ -73,6 +73,10 @@ textarea:focus {
     outline: none;
 }
 
+textarea:focus::placeholder {
+    color: transparent;
+}
+
 ::placeholder {
     color: var(--text-white);
 }
